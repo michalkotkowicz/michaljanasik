@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+/*
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+*/
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    background-image: url(./PHOTOS/back001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: grey 0px 3px 3px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8rem;
+    height: 100px;
+}
+
+.logo img{
+    height: 100%;
+}
+
+
+.header nav ul{
+    display: flex;
+    font-size: 2rem;
+    padding-right: 3rem;
+}
+
+.header nav ul li{
+    margin-right: 2rem;
+    list-style-type: none;
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    text-shadow: lightgrey 3px 3px 3px;
+}
+
+.header nav ul li a:hover{
+    color: darkred;
+    border-bottom: 4px solid darkred;
+}
+
+main{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2{
+    font-size: 4rem;
+    color: black;
+}
+
+.lastname{
+    color: darkred;
+}
+
+h3{
+    font-size: 3rem;
+    color: black;
+}
+
+.linkmain{
+    background-color: white;
+    color: grey;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 30px;
+    box-shadow: grey 5px 5px 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    margin: auto;
+}
+
+.linkmain:hover{
+    background-color: lightgrey;
+    color: black;
+}
+
+.image{
+    padding-right: 3rem;
+}
+
+.image img{
+    height: 650px;
+    border-radius: 50%;
+}
+
+.links{
+    padding-top: 3rem;
+    display: flex;
+    list-style-type: none;
+}
+
+.links li{
+    padding-left: 1rem;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footertext{
+    text-align: right;
+    padding-right: 2rem;
+    color: grey;
+}
