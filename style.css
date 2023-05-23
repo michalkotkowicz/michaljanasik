@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 /*
     font-family: 'Kanit', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 */
 body{
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
-    background-image: url(./PHOTOS/back001.jpg);
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(./PHOTOS/back007.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height:100%;
@@ -20,11 +22,11 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    background-color: white;
     box-shadow: grey 0px 3px 3px;
 }
 
@@ -54,13 +56,13 @@ body{
 
 .header nav ul li a{
     text-decoration: none;
-    color: black;
-    font-weight: 700;
-    text-shadow: lightgrey 3px 3px 3px;
+    color: white;
+    font-weight: 400;
+   /* text-shadow: lightgrey 3px 3px 3px; */
 }
 
 .header nav ul li a:hover{
-    color: darkred;
+    color: grey;
     border-bottom: 4px solid darkred;
 }
 
@@ -72,24 +74,24 @@ main{
 
 h2{
     font-size: 4rem;
-    color: black;
-}
-
-.lastname{
-    color: darkred;
+    color: white;
 }
 
 h3{
     font-size: 3rem;
-    color: black;
+    color: white;
+}
+
+.main-firstline{
+    transition: transform 1s ease-in-out 250ms;
 }
 
 .linkmain{
     background-color: white;
     color: grey;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
-    padding: 1rem 3rem 1rem 3rem;
+    padding: 1rem 4rem 1rem 4rem;
     border-radius: 30px;
     box-shadow: grey 5px 5px 5px;
     text-decoration: none;
@@ -101,7 +103,7 @@ h3{
 
 .linkmain:hover{
     background-color: lightgrey;
-    color: black;
+    color: darkred;
 }
 
 .image{

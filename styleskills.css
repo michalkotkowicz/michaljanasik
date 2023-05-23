@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 /*
     font-family: 'Kanit', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 */
 body{
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
-    background-image: url(./PHOTOS/back001.jpg);
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(./PHOTOS/back007.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height:100%;
@@ -20,11 +22,11 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    background-color: white;
     box-shadow: grey 0px 3px 3px;
 }
 
@@ -54,23 +56,68 @@ body{
 
 .header nav ul li a{
     text-decoration: none;
-    color: black;
-    font-weight: 700;
-    text-shadow: lightgrey 3px 3px 3px;
+    color: white;
+    font-weight: 400;
+   /* text-shadow: lightgrey 3px 3px 3px; */
 }
 
 .header nav ul li a:hover{
-    color: darkred;
+    color: grey;
     border-bottom: 4px solid darkred;
 }
 
 main{
-    padding-top: 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
     display: flex;
     justify-content: space-around;
 }
 
+.skills-column{
+    width: 45%;
+    color: white;
+    font-weight: 700;
+}
 
+.skills-column div img{
+    padding-top: 2rem;
+}
+
+.skills-result{
+    height: 18%;
+    margin:1rem;
+    border-radius: 30px;
+    background: rgb(230,230,230);
+    background: radial-gradient(circle, rgba(230,230,230,1) 0%, rgba(103,103,103,1) 100%);
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.skills01{
+    border-left: 30px solid rgb(79, 16, 85);
+    box-shadow: -3px 0px 3px white;
+}
+
+.skills02{
+    border-left: 30px solid rgb(6,91,177);
+    box-shadow: -3px 0px 3px white;
+}
+
+.skills03{
+    border-left: 30px solid rgb(175, 88, 6);
+    box-shadow: -3px 0px 3px white;
+}
+
+.skills-result-01{
+    width: 30%;
+    font-size: 1.5rem;
+}
+
+.skills-result-02{
+    width: 70%;
+    color: black;
+}
 
 
 footer{

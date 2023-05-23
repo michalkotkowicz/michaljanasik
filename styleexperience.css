@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 /*
     font-family: 'Kanit', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 */
-
 body{
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
-    background-image: url(./PHOTOS/back001.jpg);
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(./PHOTOS/back007.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height:100%;
@@ -21,12 +22,16 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    background-color: white;
     box-shadow: grey 0px 3px 3px;
+    background-image: url(./PHOTOS/back007.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 .logo{
@@ -55,31 +60,88 @@ body{
 
 .header nav ul li a{
     text-decoration: none;
-    color: black;
-    font-weight: 700;
-    text-shadow: lightgrey 3px 3px 3px;
+    color: white;
+    font-weight: 400;
+   /* text-shadow: lightgrey 3px 3px 3px; */
 }
 
 .header nav ul li a:hover{
-    color: darkred;
+    color: grey;
     border-bottom: 4px solid darkred;
 }
 
 main{
-    padding-top: 10%;
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
+    padding-top: 8%;
+    padding-bottom: 2%;
+    width: 90%;
     margin: auto;
 }
 
-.experience{
-    height: 60vh;
-    width: 40%;
-    border: 5px solid black;
+.experience-area{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
+.experience{
+    margin: 2rem;
+    height: 60vh;
+    width: 40vw;
+    border-radius: 40px;
+    z-index: -1;
+    background: rgb(230,230,230);
+    background: radial-gradient(circle, rgba(230,230,230,1) 0%, rgba(103,103,103,1) 100%);
+}
 
+.experience-picture{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.experience-picture-3{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.experience-picture-4{
+    display: flex;
+    justify-content: center;
+}
+
+.experience-picture img{
+    height: 70px
+}
+
+.experience-picture-3 img{
+    height: 100px
+}
+
+.experience-picture-4{
+    height: 140px;
+}
+
+.experience-info{
+    width: 90%;
+    margin: auto;
+}
+
+.experience-info ul{
+    list-style-type: disc;
+}
+
+h4{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+}
+
+h5{
+    text-align: center;
+}
 
 
 footer{
@@ -87,6 +149,7 @@ footer{
     bottom: 0;
     left: 0;
     width: 100%;
+    z-index: -2;
 }
 
 .footertext{
