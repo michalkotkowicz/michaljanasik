@@ -83,7 +83,22 @@ h3{
 }
 
 .main-firstline{
-    transition: transform 1s ease-in-out 250ms;
+    animation-duration: 2.5s;
+}
+
+.main-secondline{
+    animation-duration: 2.5s;
+    animation-delay: 0.5s
+}
+
+.main-thirdline{
+    animation-duration: 2.5s;
+    animation-delay: 1s;
+}
+
+.main-fourthline{
+    animation-duration: 2.5s;
+    animation-delay: 1.5s;
 }
 
 .linkmain{
