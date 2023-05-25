@@ -30,7 +30,6 @@ body{
     box-shadow: grey 0px 3px 3px;
     background-image: url(./PHOTOS/back007.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     
 }
 
@@ -91,6 +90,7 @@ main{
     z-index: -1;
     background: rgb(230,230,230);
     background: radial-gradient(circle, rgba(230,230,230,1) 0%, rgba(103,103,103,1) 100%);
+
 }
 
 .experience-picture{

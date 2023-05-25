@@ -101,6 +101,11 @@ h3{
     animation-delay: 1.5s;
 }
 
+.title{
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
 .linkmain{
     background-color: white;
     color: grey;
