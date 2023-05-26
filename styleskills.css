@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 /*
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Work Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
 */
+
+
+
 body{
     margin: 0;
     box-sizing: border-box;
@@ -34,7 +33,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 8rem;
+    padding-left: 5rem;
     height: 100px;
 }
 
@@ -58,7 +57,6 @@ body{
     text-decoration: none;
     color: white;
     font-weight: 400;
-   /* text-shadow: lightgrey 3px 3px 3px; */
 }
 
 .header nav ul li a:hover{
@@ -67,64 +65,62 @@ body{
 }
 
 main{
-    padding-top: 8%;
-    padding-bottom: 8%;
+    padding-top: 7%;
+    padding-bottom: 3%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.skills-column{
-    width: 45%;
-    color: white;
-    font-weight: 700;
-}
-
-.skills-column div img{
-    padding-top: 2rem;
-}
-
-.skills-result{
-    height: 18%;
-    margin:1rem;
-    border-radius: 30px;
+.skills-area{
+    margin: 2rem;
+    padding: 2rem;
+    height: 65vh;
+    width: 40vw;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
     background: rgb(230,230,230);
     background: radial-gradient(circle, rgba(230,230,230,1) 0%, rgba(103,103,103,1) 100%);
     display: flex;
     align-items: center;
-    padding: 0.5rem;
 }
 
-.skills01{
-    border-left: 30px solid rgb(79, 16, 85);
-    box-shadow: -3px 0px 3px white;
+h2{
+    font-size: 3rem;
+    margin-top: 20px;
+    color: white;
+    background-color: darkred;
+    width:100%;
+    text-align: center;
 }
 
-.skills02{
-    border-left: 30px solid rgb(6,91,177);
-    box-shadow: -3px 0px 3px white;
-}
-
-.skills03{
-    border-left: 30px solid rgb(175, 88, 6);
-    box-shadow: -3px 0px 3px white;
-}
-
-.skills-result-01{
-    width: 30%;
-    font-size: 1.5rem;
-}
-
-.skills-result-02{
-    width: 70%;
+.skills-area ul li{
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
     color: black;
 }
 
+.skills-anim-01{
+    animation-duration: 2s;
+}
+
+.skills-anim-02{
+    animation-duration: 2.5s;
+    animation-delay: 0.8s;
+}
+
+.animation{
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
 
 footer{
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+    z-index: -2;
 }
 
 .footertext{

@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 /*
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Work Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
 */
+
+
+
 body{
     margin: 0;
     box-sizing: border-box;
@@ -34,7 +33,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 8rem;
+    padding-left: 5rem;
     height: 100px;
 }
 
@@ -58,7 +57,6 @@ body{
     text-decoration: none;
     color: white;
     font-weight: 400;
-   /* text-shadow: lightgrey 3px 3px 3px; */
 }
 
 .header nav ul li a:hover{
@@ -75,11 +73,24 @@ main{
 h2{
     font-size: 4rem;
     color: white;
+    padding-left:40px
 }
 
 h3{
-    font-size: 3rem;
+    font-size: 4rem;
     color: white;
+    background-color: darkred;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.spanmain{
+    padding-right: 40px;
 }
 
 .main-firstline{
@@ -98,10 +109,10 @@ h3{
 
 .main-fourthline{
     animation-duration: 2.5s;
-    animation-delay: 1.5s;
+    animation-delay: 2.5s;
 }
 
-.title{
+.animation{
     opacity: 0;
     animation-fill-mode: forwards;
 }
@@ -150,6 +161,7 @@ footer{
     bottom: 0;
     left: 0;
     width: 100%;
+    z-index: -2;
 }
 
 .footertext{
