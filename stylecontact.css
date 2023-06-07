@@ -103,6 +103,11 @@ i{
     color: white;
 }
 
+.link-do-linkedin{
+    display: flex;
+    justify-content: center;
+}
+
 .image{
     padding-right: 3rem;
 }
